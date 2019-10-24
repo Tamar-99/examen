@@ -1,0 +1,17 @@
+
+
+
+div.registro{
+    display: none;
+    background-color: rgb(95, 162, 216);
+}
+
+div.login{
+    display: none;
+    background-color: cornflowerblue;
+}
+
+div.menu{
+    display: block;
+    background-color: cyan;
+}
