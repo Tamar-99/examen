@@ -1,4 +1,7 @@
-
+@font-face{
+	src : url(fuente/letras.ttf);
+	font-family: "inicio";
+}
 
 
 div.registro{
@@ -8,10 +11,58 @@ div.registro{
 
 div.login{
     display: none;
-    background-color: cornflowerblue;
+    background-color: #8c9eff !important;
 }
 
 div.menu{
     display: block;
-    background-color: cyan;
+    background-color: rgb(135, 224, 224);
 }
+h1 {
+	font-family: "inicio";
+}
+html,body {
+    height:100%;
+}
+
+header {
+        
+    display:block;
+    background: #004d40 ;
+    padding:10px 0px;
+}
+section {
+    width: 20%;
+    background: rgb(204, 204, 204);
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+aside {
+    float: right;
+    border: 1px solid rgb(241, 100, 100);
+    width: 19%;
+    border: 1px solid red;
+    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*visibility: hidden;*/
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+figure {
+    display: table; margin: 0 auto;
+}
+#slices {
+    height: 150px;
+    width: 2000px;
+    background-color:#5bb1c0;
+    }
